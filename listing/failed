@@ -1,0 +1,3 @@
+tests/acceptance/0001_LoginSuperUserCest.php:test_install
+tests/acceptance/0001_LoginSuperUserCest.php:test_wrongLogin
+tests/acceptance/0001_LoginSuperUserCest.php:test_login
