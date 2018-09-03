@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <title>XAVOC ERP/CRM (xEpan)</title>
+    <link href="/install/templates/css/bootstrap/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="/install/templates/css/jquery-ui.css" type="text/css" rel="stylesheet" />
+    <link href="/install/templates/css/libs/font-awesome02.css" type="text/css" rel="stylesheet" />
+    <link href="/install/templates/css/compiled/theme_styles.css" type="text/css" rel="stylesheet" />
+    <link href="/install/templates/css/libs/nanoscroller.css" type="text/css" rel="stylesheet" />
+    <link type="text/css" href="/install/templates/css/xepan.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300" />
+    <!--if lt IE 9
+    script(src='js/html5shiv.js')
+    script(src='js/respond.min.js')
+    -->
+    <script src="/install/atk4/js/jquery-2.0.3.min.js" type="text/javascript"></script>
+<script src="/install/atk4/js/start-atk4.js" type="text/javascript"></script>
+<script src="/install/atk4/js/jquery-ui-1.11.beta2.min.js" type="text/javascript"></script>
+<script src="/install/templates/js/ui.atk4_loader.js" type="text/javascript"></script>
+<script src="/install/atk4/js/ui.atk4_notify.js" type="text/javascript"></script>
+<script src="/install/templates/js/atk4_univ_basic.js" type="text/javascript"></script>
+<script src="/install/atk4/js/atk4_univ_jui.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      $(function(){
+          $.atk4.includeJS("/install/templates/js/ui.atk4_form.js");
+$.atk4(function(){ $('#install_layout_centered_index_form').atk4_form([]);
+; });
+
+      });
+    </script>
+  </head>
+  <body style="font-size: 14px; overflow: hidden;" class="theme-whbl">
+<div class="atk-layout visible-dialog">
+  <div class="atk-layout-row atk-layout-expand">
+    <div class="atk-layout atk-layout-cell" id="atk-layout-content">
+      <div class="atk-layout-column atk-layout-expand atk-valign-middle">
+        <div class="atk-wrapper">
+          <div class="atk-box-large atk-move-center atk-swatch-gray atk-text-inherit" style="width: 400px">
+<div class="page_index" id="install_layout_centered_index">
+<div class="atk-form  atk4_form_widget atk4_loader" id="install_layout_centered_index_form" style=""><div class="atk-banner atk-cells atk-visible" id="banner-loader" style="display: none;"><div class="atk-cell atk-align-center atk-valign-middle"><div class="atk-box atk-inline atk-size-zetta atk-banner-cogs fa fa-spinner fa-spin fa-5x"></div></div></div>
+  <form method="post" action="/install/?submit=install_layout_centered_index_form" class="atk4_form form_changed"><input type="hidden" value="1" id="ajax_submit" name="ajax_submit" data-initvalue="1" />
+  
+  <div class="atk-cells-group atk-cells-gutter-large ">
+    
+<div class="panel panel-default" id="install_layout_centered_index_form_view">
+  <div class="panel-heading text-center">
+    <h2> Epan <br />CMS / E-COMM / CRM / ERP<br />Installer</h2>
+  </div>
+  <div class="panel-body">
+    
+      <fieldset>
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <div class="form-group atk-form-row atk-form-field"><strong>Database Name:</strong>
+              <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <div class="xepan-form-field"><input type="text" placeholder="Database" value="" id="install_layout_centered_index_form_view_database" data-shortname="database" name="install_layout_centered_index_form_view_database" data-initvalue="testdb" />    </div>
+              </div>
+            </div>
+            <div class="form-group atk-form-row atk-form-field"><strong>Database Host:</strong>
+              <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <div class="xepan-form-field"><input type="text" placeholder="Database Host" value="" id="install_layout_centered_index_form_view_database_host" data-shortname="database_host" name="install_layout_centered_index_form_view_database_host" data-initvalue="localhost" />    </div>
+              </div>
+            </div>
+            <div class="form-group atk-form-row atk-form-field"><strong>Database User:</strong>
+              <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                <div class="xepan-form-field"><input type="text" placeholder="Database User" value="" id="install_layout_centered_index_form_view_database_user" data-shortname="database_user" name="install_layout_centered_index_form_view_database_user" data-initvalue="root" /></div>
+              </div>
+            </div>
+            <div class="form-group atk-form-row atk-form-field"><strong>Database Password:</strong>
+              <div class="input-group"><span class="input-group-addon"><i class="fa fa-key"></i></span>
+                <div class="xepan-form-field"><input type="password" placeholder="Database Password" value="" id="install_layout_centered_index_form_view_database_password" data-shortname="database_password" name="install_layout_centered_index_form_view_database_password" data-initvalue="" /></div>
+              </div>
+            </div>
+            <div class="form-group atk-form-row atk-form-field"><strong>Admin Username (Must be Email):</strong>
+              <div class="input-group"><span class="input-group-addon"><i class="fa fa-key"></i></span>
+                <div class="xepan-form-field"><input type="text" placeholder="(must be Email)" value="" id="install_layout_centered_index_form_view_admin_username" data-shortname="admin_username" name="install_layout_centered_index_form_view_admin_username" data-initvalue="testsuper@xavoc.com" /></div>
+              </div>
+            </div>
+            <div class="form-group atk-form-row atk-form-field"><strong>Admin Password:</strong>
+              <div class="input-group"><span class="input-group-addon"><i class="fa fa-key"></i></span>
+                <div class="xepan-form-field"><input type="text" placeholder="Admin Password" value="" id="install_layout_centered_index_form_view_admin_password" data-shortname="admin_password" name="install_layout_centered_index_form_view_admin_password" data-initvalue="admin" /></div>
+              </div>
+            </div>
+            <div class="form-group atk-form-row atk-form-field"><strong>Install As:</strong>
+              <div class="input-group"><span class="input-group-addon"><i class="fa fa-key"></i></span>
+                <div class="xepan-form-field"><select placeholder="Install As" id="install_layout_centered_index_form_view_install_as" data-shortname="install_as" name="install_layout_centered_index_form_view_install_as" data-initvalue="erp"><option selected="selected" value="">Please Select</option><option value="web">Website</option><option value="ecomm">E-Commerce</option><option value="erp">CRM/ERP</option></select></div>
+              </div>
+            </div>
+            <div class="form-group atk-form-row atk-form-field"><strong>License Key:</strong>
+              <div class="input-group"><span class="input-group-addon"><i class="fa fa-key"></i></span>
+                <div class="xepan-form-field"><input type="text" placeholder="License Key" value="" id="install_layout_centered_index_form_view_license_key" data-shortname="license_key" name="install_layout_centered_index_form_view_license_key" data-initvalue="" /> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ro" style="padding-bottom:20px;">            </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <button class="btn btn-success col-xs-12" type="submit" data-initvalue="">Install (May take a few minutes on slow pc)</button>
+          </div>
+        </div>
+      </fieldset>
+    
+  </div>
+</div>
+<style>
+   input{
+    width:100%;
+  }
+  .atk-wrapper .atk-box-large {
+    margin:auto;
+  }     
+  .atk-wrapper .atk-box-large .xepan-form-field  input{
+    line-height:30px;
+  }
+  .atk-wrapper .atk-box-large .form-group{
+    margin-bottom: 10px;
+  }
+</style>
+    
+    <div class="atk-cells atk-cells-gutter-large">
+      <div class="atk-cell"></div>
+      <div class="atk-cell atk-actions "></div>
+    </div>
+  </div></form>
+  
+</div></div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="templates/js/demo-skin-changer.js"></script>
+    <script src="templates/js/demo-rtl.js"></script>
+    <script src="templates/js/bootstrap.js"></script>
+    <script src="templates/js/jquery.nanoscroller.min.js"></script>
+    <script src="templates/js/demo.js"></script>
+    
+    <script src="templates/js/scripts.js"></script>
+    <script>
+      var bootstrapButton = $.fn.button.noConflict(); // return $.fn.button to previously assigned value
+      $.fn.bootstrapBtn = bootstrapButton;            // give $().bootstrapBtn the Bootstrap functionality
+    </script>
+  
+<div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable" style="position: absolute; height: auto; width: 1000px; top: 100px; left: 113.5px; display: block;" tabindex="-1" role="dialog" aria-describedby="ui-id-1" aria-labelledby="ui-id-2"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle"><span id="ui-id-2" class="ui-dialog-title">Installing, please wait ...</span><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close ui-state-focus" role="button" title="Close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">Close</span></button></div><div class="dialog dialog_autosize ui-dialog-content ui-widget-content atk4_loader" id="ui-id-1" style="width: auto; min-height: 91px; max-height: 670px; height: auto;">
+<div class="page_install_layout_centered_index_virtualpage" id="install_install_layout_centered_index_virtualpage">
+<style>
+  .my-console {
+    background: black;
+    color: white;
+    min-height: 10em;
+    max-height: 30em;
+    overflow-y: scroll;
+    overflow-x: hidden
+  
+  }
+  .my-console::-webkit-scrollbar {
+    display: none
+  }
+  
+  .my-console::selection {
+    background: white;
+    color: blue;
+  }
+  
+</style>
+<div class="" id="708821b0__view_console">
+  <pre class="my-console atk-box-small" id="708821b0__view_console_console" style="">--[ <i class="icon-spinner"></i> Executing... ]--------
+Connecting database
+ - Connection done
+Importing database
+ - Importing database done
+Resetting all applications
+xepan\base
+xepan\communication
+xepan\hr
+<span style="color: #f88">Exception: Exception_DB: Database Query Failed ([ pdo_error: SQLSTATE[42S22]: Column not found: 1054 Unknown column '_e.track_geolocation' in 'field list', mode: select, params: [  :a: User,  :a_2: Country,  :a_3: State,  :a_4: /install/,  :a_5: websites,  :a_6: /,  :a_7: www,  :a_8: /,  :a_9: /,  :a_10: /install/,  :a_11: websites,  :a_12: /,  :a_13: www,  :a_14: /,  :a_15: /,  :a_16: /install/,  :a_17: websites,  :a_18: /,  :a_19: www,  :a_20: /,  :a_21: /,  :a_22: /install/,  :a_23: websites,  :a_24: /,  :a_25: www,  :a_26: /,  :a_27: /,  :a_28: Email,  :a_29: 1,  :a_30: 1,  :a_31: Phone,  :a_32: Phone,  :a_33: User,  :a_34: Department,  :a_35: Department,  :a_36: Post,  :a_37: Post,  :a_38: Email,  :a_39: 1,  :a_40: 1,  :a_41: 2018-09-03,  :a_42: Employee,  :a_43: Super,  :a_44: User,  :a_45: 1,  :a_46: 2,  :a_47: 1,], query: select  `contact`.`id`,`contact`.`created_by_id`,(select  CONCAT(`created_by_alias`.`first_name`," ",`created_by_alias`.`last_name`) `name` from `contact` `created_by_alias`  where `contact`.`created_by_id` = `created_by_alias`.`id`    ) `created_by`,`contact`.`assign_to_id`,(select  CONCAT(`assigned_to_alias`.`first_name`," ",`assigned_to_alias`.`last_name`) `name` from `contact` `assigned_to_alias`  where `contact`.`assign_to_id` = `assigned_to_alias`.`id`    ) `assign_to`,`contact`.`user_id`,(select  `user`.`username` from `user`  where `user`.`type` = :a and `contact`.`user_id` = `user`.`id`    ) `user`,`contact`.`country_id`,(select  `country`.`name` from `country`  where `country`.`type` = :a_2 and `contact`.`country_id` = `country`.`id`    ) `country`,`contact`.`state_id`,(select  `state`.`name` from `state`  where `state`.`type` = :a_3 and `contact`.`state_id` = `state`.`id`    ) `state`,`contact`.`branch_id`,(select  `branch`.`name` from `branch`  where `contact`.`branch_id` = `branch`.`id`    ) `branch`,`contact`.`type`,`contact`.`first_name`,`contact`.`last_name`,`contact`.`address`,`contact`.`city`,`contact`.`pin_code`,`contact`.`status`,`contact`.`organization`,`contact`.`website`,`contact`.`code`,`contact`.`source`,`contact`.`remark`,`contact`.`score`,`contact`.`last_communication_before_days`,`contact`.`created_at`,`contact`.`updated_at`,`contact`.`assign_at`,`contact`.`search_string`,`contact`.`freelancer_type`,`contact`.`related_with`,`contact`.`related_id`,`contact`.`tag`,`contact`.`image_id`,(select  case when ((select  `mime_type` from `filestore_type`  where `filestore_type`.`id` = `filestore_file`.`filestore_type_id`    ))='image/png' THEN ((select  concat(:a_4, :a_5, :a_6, :a_7, :a_8, `_f`.`dirname`, :a_9, `filestore_file`.`filename`) `url` from `filestore_file` left join `filestore_volume` as `_f` on `_f`.`id` = `filestore_file`.`filestore_volume_id` where `filestore_file`.`id` = `_f_3`.`thumb_file_id`    )) when ((select  `mime_type` from `filestore_type`  where `filestore_type`.`id` = `filestore_file`.`filestore_type_id`    ))='image/jpg' THEN ((select  concat(:a_10, :a_11, :a_12, :a_13, :a_14, `_f`.`dirname`, :a_15, `filestore_file`.`filename`) `url` from `filestore_file` left join `filestore_volume` as `_f` on `_f`.`id` = `filestore_file`.`filestore_volume_id` where `filestore_file`.`id` = `_f_3`.`thumb_file_id`    )) when ((select  `mime_type` from `filestore_type`  where `filestore_type`.`id` = `filestore_file`.`filestore_type_id`    ))='image/jpeg' THEN ((select  concat(:a_16, :a_17, :a_18, :a_19, :a_20, `_f`.`dirname`, :a_21, `filestore_file`.`filename`) `url` from `filestore_file` left join `filestore_volume` as `_f` on `_f`.`id` = `filestore_file`.`filestore_volume_id` where `filestore_file`.`id` = `_f_3`.`thumb_file_id`    )) when ((select  `mime_type` from `filestore_type`  where `filestore_type`.`id` = `filestore_file`.`filestore_type_id`    ))='image/gif' THEN ((select  concat(:a_22, :a_23, :a_24, :a_25, :a_26, `_f`.`dirname`, :a_27, `filestore_file`.`filename`) `url` from `filestore_file` left join `filestore_volume` as `_f` on `_f`.`id` = `filestore_file`.`filestore_volume_id` where `filestore_file`.`id` = `_f_3`.`thumb_file_id`    )) when ((select  `mime_type` from `filestore_type`  where `filestore_type`.`id` = `filestore_file`.`filestore_type_id`    ))= 'application/pdf' THEN (concat('vendor/xepan/filestore/templates/images/','pdf_icon.png')) when ((select  `mime_type` from `filestore_type`  where `filestore_type`.`id` = `filestore_file`.`filestore_type_id`    ))= 'application/vnd.oasis.opendocument.presentation' THEN (concat('vendor/xepan/filestore/templates/images/','cdr_icon.png'))  END `thumb_url` from `filestore_file` left join `filestore_volume` as `_f` on `_f`.`id` = `filestore_file`.`filestore_volume_id` inner join `filestore_image` as `_f_3` on `_f_3`.`original_file_id` = `filestore_file`.`id` where `contact`.`image_id` = `filestore_file`.`id`    ) `image`,CONCAT(`contact`.`first_name`," ",`contact`.`last_name`) `name`,IF(ISNULL(`contact`.`organization`) OR trim(`contact`.`organization`)="" ,CONCAT(`contact`.`first_name`," ",`contact`.`last_name`),`contact`.`organization`) `effective_name`,CONCAT_WS("::",CONCAT(`contact`.`first_name`," ",`contact`.`last_name`),`contact`.`organization`,`contact`.`type`,`contact`.`code`) `name_with_type`,(select  group_concat(`emails_str`.`value` SEPARATOR "&lt;br/&gt;") from `contact_info` `emails_str`  where `emails_str`.`type` = :a_28 and `emails_str`.`contact_id` = `contact`.`id` and `emails_str`.`is_active` = :a_29 and `emails_str`.`is_valid` = :a_30    ) `emails_str`,CONCAT(CONCAT(`contact`.`first_name`," ",`contact`.`last_name`),' : [',IFNULL(`contact`.`organization`,''),'] - [',`contact`.`type`,'] - [', IFNULL(`contact`.`code`,''),']') `unique_name`,(select  group_concat(`contacts_str`.`value` SEPARATOR "&lt;br/&gt;") from `contact_info` `contacts_str`  where `contacts_str`.`type` = :a_31 and `contacts_str`.`contact_id` = `contact`.`id`    ) `contacts_str`,(select  group_concat(`contacts_str`.`value` SEPARATOR ", ") from `contact_info` `contacts_str`  where `contacts_str`.`type` = :a_32 and `contacts_str`.`contact_id` = `contact`.`id`    ) `contacts_comma_seperated`,"online" `online_status`,(select  `user`.`scope` from `user`  where `user`.`type` = :a_33 and `user`.`id` = `contact`.`user_id`    ) `scope`,`_e`.`graphical_report_id`,(select  `graphical_report`.`name` from `graphical_report`  where `_e`.`graphical_report_id` = `graphical_report`.`id`    ) `graphical_report`,`_e`.`department_id`,(select  `_d`.`name` from `document` inner join `department` as `_d` on `_d`.`document_id` = `document`.`id` where `document`.`type` = :a_34 and `_e`.`department_id` = `document`.`id`    ) `department`,`_e`.`post_id`,(select  CONCAT((select  `_d_7`.`name` from `document` inner join `department` as `_d_7` on `_d_7`.`document_id` = `document`.`id` where `document`.`type` = :a_35 and `_p`.`department_id` = `document`.`id`    )," :: ",`_p`.`name`) `name_with_dept` from `document` inner join `post` as `_p` on `_p`.`document_id` = `document`.`id` where `document`.`type` = :a_36 and `_e`.`post_id` = `document`.`id`    ) `post`,`_e`.`notified_till`,`_e`.`offer_date`,`_e`.`doj`,`_e`.`contract_date`,`_e`.`leaving_date`,`_e`.`allow_login_from_anywhere`,`_e`.`attandance_mode`,`_e`.`in_time`,`_e`.`out_time`,`_e`.`finacial_permit_limit`,`_e`.`salary_payment_type`,`_e`.`track_geolocation`,`_e`.`last_latitude`,`_e`.`last_longitude`,`_e`.`last_geolocation_update`,(select  `_p_6`.`name` from `document` inner join `post` as `_p_6` on `_p_6`.`document_id` = `document`.`id` where `document`.`type` = :a_37 and `document`.`id` = `_e`.`post_id`    ) `posts`,(select  `value` from `contact_info`  where `contact_info`.`type` = :a_38 and `contact_info`.`contact_id` = `contact`.`id` and `contact_info`.`is_active` = :a_39 and `contact_info`.`is_valid` = :a_40    limit 0, 1) `first_email`,IFNULL((select  `id` from `employee_attandance`  where `employee_attandance`.`employee_id` = `contact`.`id` and DATE(from_date) = :a_41   order by `employee_attandance`.`id` desc limit 0, 1),0) `check_login`,`_e`.`contact_id` `_e` from `contact` inner join `employee` as `_e` on `_e`.`contact_id` = `contact`.`id` where `contact`.`type` = :a_42 and `contact`.`first_name` = :a_43 and `contact`.`last_name` = :a_44 and `_e`.`department_id` = :a_45 and `_e`.`post_id` = :a_46 and `contact`.`user_id` = :a_47    limit 0, 1, template: select [options] [field] [from] [table] [join] [where] [group] [having] [order] [limit],]) in /home/travis/build/xepan/hr/vendor/xepan/atk4/lib/DB/dsql.php:1733</span>
+--[ <i class="icon-ok"></i> DONE ]--------
+
+</pre>
+</div></div>
+</div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div><div class="ui-widget-overlay ui-front"></div></body><canvas id="fxdriver-screenshot-canvas" style="display: none;" width="1152" height="865"></canvas></html>

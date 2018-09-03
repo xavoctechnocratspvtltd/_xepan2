@@ -1,0 +1,4 @@
+tests/acceptance/0001_LoginSuperUserCest.php:test_install
+tests/acceptance/0001_LoginSuperUserCest.php:test_wrongLogin
+tests/acceptance/0001_LoginSuperUserCest.php:test_login
+tests/acceptance/_000_hrDespartmentCest.php:test_default_non_editable_department_named_company
