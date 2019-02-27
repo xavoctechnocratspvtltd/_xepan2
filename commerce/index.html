@@ -209,13 +209,13 @@
  <body>
    <ul id="toolbar-filter">
      <li> <a href="#" title="Show all" onClick="showAllScenarios()">◯</a></li>
-     <li> <a href="#" title="Successful" onClick="toggleScenarios('scenarioSuccess', this.parentElement)"><strong>✔</strong> 3</a></li>
-     <li> <a href="#" title="Failed" onClick="toggleScenarios('scenarioFailed', this.parentElement)"><strong>✗</strong> 0</a></li>
+     <li> <a href="#" title="Successful" onClick="toggleScenarios('scenarioSuccess', this.parentElement)"><strong>✔</strong> 2</a></li>
+     <li> <a href="#" title="Failed" onClick="toggleScenarios('scenarioFailed', this.parentElement)"><strong>✗</strong> 1</a></li>
      <li> <a href="#" title="Skipped" onClick="toggleScenarios('scenarioSkipped', this.parentElement)"><strong>S</strong> 0</a></li>
      <li> <a href="#" title="Incomplete" onClick="toggleScenarios('scenarioIncomplete', this.parentElement)"><strong>I</strong> 0</a></li>
    </ul>
  <div class="layout">
- <h1>Codeception Results <small><span style="color: green">OK</span> (108.3s)</small></h1>
+ <h1>Codeception Results <small><span style="color: #e74c3c">FAILED</span> (109.5s)</small></h1>
 
 
 
@@ -227,7 +227,7 @@
 </tr>   <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('1', this)"><span class="toggle">+</span>
-          <span class="quiet">LoginSuperUserCest &raquo;</span> Test_install <span style="color: #34495e; font-size: 70%;">70.66s</span></p>
+          <span class="quiet">LoginSuperUserCest &raquo;</span> Test_install <span style="color: #34495e; font-size: 70%;">70.85s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -236,13 +236,13 @@
 
 
 <tr>
- <td class="stepName " ><p onclick="showHide('5c767c7513781', this)"><span class="toggle">+</span> I install</p>
+ <td class="stepName " ><p onclick="showHide('5c76804c8861f', this)"><span class="toggle">+</span> I install</p>
 
      </td>
 </tr>
 <tr>
  <td class="nostyle">
-  <table border="0" width="100%" class="substeps scenarioStepsTable" id="stepContainer5c767c7513781">
+  <table border="0" width="100%" class="substeps scenarioStepsTable" id="stepContainer5c76804c8861f">
           <tr>
        <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/install&quot;</span></td>
       </tr>
@@ -317,7 +317,7 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('2', this)"><span class="toggle">+</span>
-          <span class="quiet">LoginSuperUserCest &raquo;</span> Test_wrong login <span style="color: #34495e; font-size: 70%;">12.61s</span></p>
+          <span class="quiet">LoginSuperUserCest &raquo;</span> Test_wrong login <span style="color: #34495e; font-size: 70%;">12.21s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -330,13 +330,13 @@
       </tr>
 
 <tr>
- <td class="stepName " ><p onclick="showHide('5c767c81ae548', this)"><span class="toggle">+</span> I try login <span style="color: #732E81">&quot;root&quot;,&quot;root&quot;</span></p>
+ <td class="stepName " ><p onclick="showHide('5c768058c001f', this)"><span class="toggle">+</span> I try login <span style="color: #732E81">&quot;root&quot;,&quot;root&quot;</span></p>
 
      </td>
 </tr>
 <tr>
  <td class="nostyle">
-  <table border="0" width="100%" class="substeps scenarioStepsTable" id="stepContainer5c767c81ae548">
+  <table border="0" width="100%" class="substeps scenarioStepsTable" id="stepContainer5c768058c001f">
           <tr>
        <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/admin&quot;</span></td>
       </tr>
@@ -380,15 +380,15 @@
    </tr>
 
 
-   <tr class="scenarioRow scenarioSuccess">
+   <tr class="scenarioRow scenarioFailed">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('3', this)"><span class="toggle">+</span>
-          <span class="quiet">LoginSuperUserCest &raquo;</span> Test_login <span style="color: #34495e; font-size: 70%;">25.08s</span></p>
+     <p class="scenarioFailed" onclick="showHide('3', this)"><span class="toggle">+</span>
+          <span class="quiet">LoginSuperUserCest &raquo;</span> Test_login <span style="color: #34495e; font-size: 70%;">26.48s</span></p>
     </td>
    </tr>
-   <tr class="scenarioRow scenarioSuccess">
+   <tr class="scenarioRow scenarioFailed">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer3">
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer3">
 
 
       <tr>
@@ -396,13 +396,13 @@
       </tr>
 
 <tr>
- <td class="stepName " ><p onclick="showHide('5c767c9ac5cf0', this)"><span class="toggle">+</span> I login <span style="color: #732E81">&quot;testsuper@xavoc.com&quot;</span></p>
+ <td class="stepName " ><p onclick="showHide('5c768073b5426', this)"><span class="toggle">+</span> I login <span style="color: #732E81">&quot;testsuper@xavoc.com&quot;</span></p>
 
      </td>
 </tr>
 <tr>
  <td class="nostyle">
-  <table border="0" width="100%" class="substeps scenarioStepsTable" id="stepContainer5c767c9ac5cf0">
+  <table border="0" width="100%" class="substeps scenarioStepsTable" id="stepContainer5c768073b5426">
           <tr>
        <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I load session snapshot <span style="color: #732E81">&quot;login&quot;</span></td>
       </tr>
@@ -428,29 +428,22 @@
       </tr>
 
       <tr>
-       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I wait page load</td>
-      </tr>
-
-      <tr>
-       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Dashboard&quot;</span></td>
-      </tr>
-
-      <tr>
-       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I save session snapshot <span style="color: #732E81">&quot;login&quot;</span></td>
+       <td class="stepName failedStep">&nbsp;&nbsp;&nbsp;&nbsp;I wait page load</td>
       </tr>
 
 
   </table>
  </td>
 </tr>
-      <tr>
-       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Dashboard&quot;</span></td>
-      </tr>
 
+         <tr >
+    <td class="error">
+        Waited for 10 secs but script 'return !!window.jQuery &amp;&amp; window.jQuery.active == 0;' still not executed
+    </td>
+</tr>
 
-         
-         
-         
+         <tr><td class='error'><div class='screenshot'><img src='LoginSuperUserCest.test_login.travis.fail.png' alt='failure screenshot'></div></td></tr>
+         <tr><td class='error'>See <a href='LoginSuperUserCest.test_login.travis.fail.html' target='_blank'>HTML snapshot</a> of a failed page</td></tr>
      </table>
 
 
@@ -466,11 +459,11 @@
       <table border="0">
        <tr>
         <td width="250" class="scenarioSuccess">Successful scenarios:</td>
-        <td class="scenarioSuccessValue"><strong>3</strong></td>
+        <td class="scenarioSuccessValue"><strong>2</strong></td>
        </tr>
        <tr>
         <td class="scenarioFailed">Failed scenarios:</td>
-        <td class="scenarioFailedValue"><strong>0</strong></td>
+        <td class="scenarioFailedValue"><strong>1</strong></td>
        </tr>
        <tr>
         <td class="scenarioSkipped">Skipped scenarios:</td>
